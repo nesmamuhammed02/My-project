@@ -2,28 +2,6 @@ What is the purpose of a Git repository, and how does it help powerBI developers
 
 >>it stores the file in my project and the history of all chahnges i made also usefull for collabration so all developers can modefiy.
 
->>if i have different versions of same report instead of saving them all it will keep one file and show all changes.
-
-
-
-
-
-
-Explain the difference between tracked and untracked files in Git, and why might untracked files cause issues in a power BI project? 
-
->>Tracked files : git knows about them They have been added with git add and will appear in commits and  keeps their change history.
-
->>Untracked files : git does not know about them  They exist in the folder but have not been staged or committed.
-
-changeee
-
-
-
-
-
-Why is it important to use a file to ignore certain items (e.g., .pbi/cache.abf:) in a Git repository, especially for power BI  development? 
-
->> reports generates chache files that is not need to be shared
 
 
 
@@ -33,16 +11,13 @@ Why is it important to use a file to ignore certain items (e.g., .pbi/cache.abf:
 
 
 
-How does viewing a project’s history benefit a power BI developer when working on multiple versions of a database file? 
-
->>i can get an old report version back if the new virsions is wrong
->>i can know who did the changes , when and why 
->>if a KPI suddenly breaks, you can check when it last worked and restore that version
 
 
 
 
 
 
-first change
-second change
+
+
+
+
