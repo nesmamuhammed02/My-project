@@ -79,3 +79,7 @@ select * from inserted
 else
 raiserror('sorry,no available seats',16,1)
 end
+
+
+first change
+second change
